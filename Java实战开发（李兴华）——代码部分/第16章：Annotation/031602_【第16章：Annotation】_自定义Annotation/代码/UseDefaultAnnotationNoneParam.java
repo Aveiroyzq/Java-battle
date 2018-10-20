@@ -1,0 +1,5 @@
+/*
+@MyDefaultAnnotationNoneParam
+class Demo{
+};
+*/

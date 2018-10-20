@@ -1,0 +1,11 @@
+DROP TABLE user ;	-- É¾³ý±í
+CREATE TABLE user(
+	id		INT		AUTO_INCREMENT PRIMARY KEY ,
+	name		VARCHAR(30)	NOT NULL ,
+	password 	VARCHAR(32)	NOT NULL ,
+	age		INT		NOT NULL ,
+	sex		VARCHAR(2)	DEFAULT 'ÄÐ' ,
+	birthday	DATE 
+) ;
+
+INSERT INTO user(name,password,age,sex,birthday) VALUES ('Àî¿µ','www.mldnjava.cn',23,'Å®','2003-08-27') ;

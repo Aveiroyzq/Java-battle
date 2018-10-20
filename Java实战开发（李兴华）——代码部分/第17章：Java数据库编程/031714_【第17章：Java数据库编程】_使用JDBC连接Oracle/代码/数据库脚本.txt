@@ -1,0 +1,10 @@
+DROP TABLE person ;
+DROP SEQUENCE myseq ;
+CREATE SEQUENCE myseq ;
+CREATE TABLE person
+(
+	id		INT		PRIMARY KEY NOT NULL ,
+	name		VARCHAR(50)	NOT NULL ,
+	age		INT ,
+	birthday 	DATE
+) ;

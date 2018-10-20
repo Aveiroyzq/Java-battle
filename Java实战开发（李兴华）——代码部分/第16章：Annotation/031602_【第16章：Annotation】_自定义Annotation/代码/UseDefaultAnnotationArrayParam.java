@@ -1,0 +1,6 @@
+/*
+@MyDefaultAnnotationArrayParam(value={"MLDN","ÀîÐË»ª"})
+class Demo{
+};
+
+*/

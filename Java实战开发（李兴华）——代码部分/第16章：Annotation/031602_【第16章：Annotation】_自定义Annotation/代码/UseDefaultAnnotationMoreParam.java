@@ -1,0 +1,5 @@
+/*
+@MyDefaultAnnotationMoreParam(key="MLDN",value="ÀîÐË»ª")
+class Demo{
+};
+*/

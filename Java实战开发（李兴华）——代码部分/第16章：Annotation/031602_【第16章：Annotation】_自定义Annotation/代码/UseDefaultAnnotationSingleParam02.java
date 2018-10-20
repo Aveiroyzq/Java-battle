@@ -1,0 +1,5 @@
+/*
+@MyDefaultAnnotationSingleParam(value="ÀîÐË»ª")
+class Demo{
+};
+*/

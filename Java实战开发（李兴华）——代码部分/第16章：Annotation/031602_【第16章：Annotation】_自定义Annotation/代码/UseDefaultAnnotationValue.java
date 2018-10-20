@@ -1,0 +1,6 @@
+/*
+@MyDefaultAnnotationValue
+class Demo{
+};
+
+*/

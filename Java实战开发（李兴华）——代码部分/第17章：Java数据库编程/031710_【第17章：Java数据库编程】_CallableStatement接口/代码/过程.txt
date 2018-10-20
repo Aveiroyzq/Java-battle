@@ -1,0 +1,16 @@
+DELIMITER // 
+DROP PROCEDURE myproc //	-- 删除过程
+CREATE PROCEDURE myproc(IN p1 int,INOUT p2 int,OUT p3 int)
+BEGIN
+	SELECT p1,p2,p3	;		-- 输出p1、p2、p3的内容
+	SET p1=10 ;
+	SET p2=20 ;
+	SET p3=30 ;
+END
+//
+
+DELIMITER ;
+SET @x1=70 ;	-- 定义变量x1，内容为70
+SET @x2=80 ;	-- 定义变量x2，内容为80
+CALL myproc(@x1,@x2,@x3) ;
+SELECT @x1,@x2,@x3 ;
